@@ -1,0 +1,5 @@
+ncps==0.0.7
+numpy==2.0.0
+pytorch_lightning==2.2.5
+scikit_learn==1.4.2
+torch==2.3.0+cu121
