@@ -1,0 +1,9 @@
+{
+  "float_precision": "medium",
+  "model_name": "ex010",
+  "num_neurons": 16,
+  "learning_rate": 0.01,
+  "max_epochs": 50,
+  "seed": 23,
+  "save_path": "dataset/uci-har-processed"
+}

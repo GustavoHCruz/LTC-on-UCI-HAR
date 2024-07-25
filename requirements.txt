@@ -1,5 +1,8 @@
+matplotlib==3.9.1
 ncps==0.0.7
-numpy==2.0.0
+numpy==2.0.1
+pandas==2.2.2
+plyer==2.1.0
 pytorch_lightning==2.2.5
-scikit_learn==1.4.2
 torch==2.3.0+cu121
+torchmetrics==1.4.0.post0
