@@ -17,13 +17,15 @@ def read_and_validate_json(file_path):
   """
   # Define the expected types
   expected_types = {
-    "float_precision": str,
     "model_name": str,
+    "seed": int,
+    "save_path": str,
+    "float_precision": str,
+    "validation_proportion": float,
+    "batch_size": int,
     "num_neurons": int,
     "learning_rate": float,
-    "max_epochs": int,
-    "seed": int,
-    "save_path": str
+    "max_epochs": int
   }
   
   # Read the JSON from the file
@@ -39,11 +41,13 @@ def read_and_validate_json(file_path):
   
   # Return the retrieved values
   return {
-    "float_precision": data["float_precision"],
     "model_name": data["model_name"],
+    "seed": data["seed"],
+    "save_path": data["save_path"],
+    "float_precision": data["float_precision"],
+    "validation_proportion": data["validation_proportion"],
+    "batch_size": data["batch_size"],
     "num_neurons": data["num_neurons"],
     "learning_rate": data["learning_rate"],
-    "max_epochs": data["max_epochs"],
-    "seed": data["seed"],
-    "save_path": data["save_path"]
+    "max_epochs": data["max_epochs"]
   }
