@@ -22,7 +22,7 @@ def read_and_validate_json(file_path):
     "save_path": str,
     "float_precision": str,
     "validation_proportion": float,
-    "batch_size": int,
+    "batch_size": int | str,
     "num_neurons": int,
     "learning_rate": float,
     "max_epochs": int
