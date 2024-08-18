@@ -1,0 +1,4 @@
+{
+  "save_path": "dataset/uci-har-processed",
+  "validation_proportion": 0.1
+}
