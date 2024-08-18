@@ -1,11 +1,10 @@
 {
-  "model_name": "ex001",
+  "model_name": "ex014",
   "seed": 115,
   "save_path": "dataset/uci-har-processed",
   "float_precision": "medium",
-  "validation_proportion": 0.1,
-  "batch_size": "full",
+  "batch_sizes": [16, 16, 16],
   "num_neurons": 64,
-  "learning_rate": 0.01,
+  "learning_rate": 0.005,
   "max_epochs": 2
 }
