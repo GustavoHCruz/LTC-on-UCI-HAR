@@ -3,7 +3,7 @@
   "seed": 1234,
   "save_path": "dataset/uci-har-processed",
   "float_precision": "medium",
-  "batch_sizes": [6616, 735, 2947],
+  "batch_sizes": [6616, 736, 2947],
   "num_neurons": 64,
   "learning_rate": 0.01,
   "max_epochs": 200
