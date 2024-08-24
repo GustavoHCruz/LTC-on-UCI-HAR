@@ -1,4 +1,4 @@
-dataset
-logs
 __pycache__
-log
+dataset
+checkpoints
+hparams.yaml
