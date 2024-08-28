@@ -1,5 +1,5 @@
 {
-  "model_name": "ex015",
+  "model_name": "ex007",
   "processing": {
     "save_path": "dataset/uci-har-processed",
     "validation_proportion": 0.1
@@ -8,12 +8,12 @@
     "seed": 4321,
     "float_precision": "medium",
     "batch_sizes": [
-      16,
-      16,
+      1024,
+      128,
       "all"
     ],
     "num_neurons": 64,
-    "learning_rate": 0.005,
-    "max_epochs": 2
+    "learning_rate": 0.01,
+    "max_epochs": 50
   }
 }
