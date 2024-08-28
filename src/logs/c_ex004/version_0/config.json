@@ -1,8 +1,8 @@
 {
-  "model_name": "ex001",
+  "model_name": "ex004",
   "processing": {
-    "save_path": "dataset/uci-har-processed-wout-validation",
-    "validation_proportion": 0.0
+    "save_path": "dataset/uci-har-processed",
+    "validation_proportion": 0.1
   },
   "training": {
     "seed": 1234,
@@ -12,7 +12,7 @@
       "all",
       "all"
     ],
-    "num_neurons": 64,
+    "num_neurons": 32,
     "learning_rate": 0.01,
     "max_epochs": 200
   }
